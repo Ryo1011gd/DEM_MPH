@@ -1,0 +1,99 @@
+# Sample
+ParticleDistance        0.0008
+LowerDomain                -0.05 -0.05    0.0
+UpperDomain                0.21   1.655       0.0008
+StartCuboid
+   Spacing        0.0008
+    Type           1
+    Lower           0.000    0.00  0.0
+    Upper           0.200    0.26  0.0008
+    Velocity        0.0 0.0 0.0
+EndCuboid
+StartCuboid
+    Spacing        0.0008
+    Type           2
+    Lower           0.049     0.362  0.0
+    Upper           0.149     0.520  0.0008
+    Velocity        0.0 -0.1 0.0
+EndCuboid
+#StartCuboid
+    Spacing        0.0008
+    Type           2
+    Lower           0.095     0.262  0.0
+    Upper           0.105     1.620  0.0008
+    Velocity        0.0 -0.1 0.0
+EndCuboid
+StartCuboid
+    Spacing        0.0008
+    Type          4
+    Lower         0.00    -0.005  0.0
+    Upper         0.2     0.0  0.0008
+    Velocity        0.0 0.0 0.0
+EndCuboid
+StartCuboid
+    Spacing        0.0008
+    Type          4
+    Lower         0.2     -0.005  0.0
+    Upper         0.206    0.34  0.0008
+    Velocity        0.0 0.0 0.0
+EndCuboid
+StartCuboid
+    Spacing        0.0008
+    Type          4
+    Lower         -0.004   -0.005   0.0
+    Upper         0.0       0.34    0.0008
+    Velocity        0.0 0.0 0.0
+EndCuboid
+StartCuboid
+    Spacing        0.0008
+    Type          4
+    Lower         0.15      0.36  0.0
+    Upper         0.155    0.650  0.0008
+    Velocity        0.0 0.0 0.0
+EndCuboid
+StartCuboid
+    Spacing        0.0008
+    Type          4
+    Lower         0.042    0.36  0.0
+    Upper         0.048     0.650  0.0008
+    Velocity        0.0 0.0 0.0
+EndCuboid
+StartCuboid
+    Spacing        0.001
+    Type          4
+    Lower         0.107    0.26  0.0
+    Upper         0.110     0.35  0.0008
+    Velocity        0.0 0.0 0.0
+EndCuboid
+StartCuboid
+    Spacing        0.0008
+    Type          4
+    Lower         0.090    0.26  0.0
+    Upper         0.093     0.35  0.0008
+    Velocity        0.0 0.0 0.0
+EndCuboid
+StartCuboid2
+    Spacing        0.0008
+    Type          4
+    Lower         0.105    0.35  0.0
+    Upper         0.155    0.355  0.0008
+    Velocity        0.0 0.0 0.0
+    Angle         -160
+EndCuboid2
+StartCuboid2
+    Spacing        0.0008
+    Type          4
+    Lower         0.041    0.35  0.0
+    Upper         0.091    0.355  0.0008
+    Velocity        0.0 0.0 0.0
+    Angle         160
+EndCuboid2
+StartCuboid2
+    Spacing        0.0008
+    Type          5
+    Lower         0.093    0.30  0.0
+    Upper         0.107    0.35  0.0008
+    Velocity        0.0 0.0 0.0
+    Angle         0
+EndCuboid2
+

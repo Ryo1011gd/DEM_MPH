@@ -1,0 +1,32 @@
+#######
+Dt						1.0e-5
+DEMDt						5.0e-6
+OutputInterval					1.0
+VtkOutputInterval				1.0e-2
+EndTime						1.0e1
+RadiusRatioA					3.0
+RadiusRatioP					3.0
+RadiusRatioV					3.0
+Density              2.0e+3 	     1.0e+3          6.0e+3	     	1.0e+3      	5.0e+3          5.0e+3
+BulkModulus          1e+5            1.0e+6          0.0e+0         	1e+4       	 1.0e+7            1e+4
+BulkViscosity         1.0e+0         1.0e+2          0.0e+0    		 1e-1       	 1.0e+2            1e-1
+ShearViscosity        1.0e-2         1.0e-1          1e-3     		1e-1       	 1e+3            1e+3
+SurfaceTension         0.072        	0.01           0.0       	0.0         	0.0             0.0
+InteractionRatio(Type0)     0.0          0.0           0.0       	0.0        	 0.0             0.0
+InteractionRatio(Type1)     0.0          0.0           0.0       	0.0         	0.0             0.0
+InteractionRatio(Type2)     0.0          0.0           0.0       	0.0         	0.0             0.0
+InteractionRatio(Type3)     0.0          0.0           0.0       	0.0         	0.0             0.0
+InteractionRatio(Type4)     0.0          0.0           0.0       	0.0         	0.0             0.0
+InteractionRatio(Type5)     0.0          0.0           0.0       	0.0         	0.0             0.0 
+Gravity                           0.0         -9.80       0.0
+##DEM Parameters##
+YoungModulus                     0.0        0.0     	1.0e10          1.0e10      	1.0e10      	6.0e+10
+PoissonRatio                     0.0        0.0 	3.0e-1          2.0e-1      	4.0e-1      	1e-1
+RestitutionCoefficient           0.0        0.0 	0.1           0.90        	0.001         	0.9
+ViscousFrictionCoefficient	0.0	    0.0      	0.450		0.4	   	0.4		0.1
+Wall4    Center 0.0 0.0 0.0    Velocity 0.0 0.0 0.0    Omega 0.0  0.0 0.0
+Wall5    Center 0.0 0.0 0.00    Velocity -1.0 0.0 0.0    Omega 0.0 0.0 0.0
+
+
+
+
